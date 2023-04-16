@@ -1,0 +1,377 @@
+body {
+	background-color: darkslategray;
+	padding: 0px;
+	margin: 0px;
+	font-family: "lucida console", "arial", monospace;
+	color: black;
+}
+#header1 {
+	font: Sans;
+	height: 86px;
+}
+.topleft {
+	color: darkblue;
+	width: 50%;	
+	float: left;
+}
+.topright {
+	color: skyblue;
+	width: 50%;
+	float: right;
+}
+#loginprompt {
+	top: 10px;
+	padding: 5px;
+	padding-left: 15px	;
+	height: 50%;
+	font-family: "lucida console", "arial", monospace;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+	margin: auto;
+	float: right;
+	border-color: lightsteelblue;
+	margin-top: 20px;
+	margin-right: 8px;
+	font-size: 30px;
+	text-align: right;
+	padding-right: 10px;
+}
+#loginprompt:visited {
+	color: inherit;
+}
+#loginprompt:hover {
+	color: darkorange;
+}
+#loginprompt_after {
+	top: 10px;
+	padding: 5px;
+	padding-left: 15px	;
+	height: 50%;
+	font-family: "lucida console", "arial", monospace;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+	margin: auto;
+	float: right;
+	border-color: lightsteelblue;
+	margin-top: 27px;
+	margin-right: 8px;
+	font-size: 20px;
+	text-align: right;
+	padding-right: 10px;
+}
+#loginprompt_after:visited {
+	color: inherit;
+}
+#loginprompt_after:hover {
+	color: darkorange;
+}
+#headerlogo {
+	width: 80px;
+	padding: 5px;
+	padding-bottom: 5px;
+	margin: 0px;
+	float: left;
+}
+
+#header2 {
+	height: 38px;
+	background-color: skyblue;
+	border-width: 2px;
+	border-style: solid;
+	border-color: lightslategray;
+}
+.nav {
+	padding: 10px;
+	padding-right: 15px;
+	padding-left: 15px	;
+	font-size: 18px;
+	font-family: "lucida console", "arial", monospace;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+}
+.nav:hover {
+	background-color: azure;
+	color: darkorange;
+}
+.nav.active {
+	background-color: steelblue;
+	color: beige;
+}
+
+.search_container {
+	font-size: 18px;
+	font-family: "lucida console", "arial", monospace;
+	text-align: left;
+	float: left;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;			
+}
+.search_container input[type=text] {
+	font-family: "lucida console", "arial", monospace;
+	font-size: 18px;
+	padding: 10px;
+	padding-right: 45px;
+	border: none;
+	outline: none;
+}
+.search_container button {
+	font-size: 18px;
+	float:right;
+	padding: 9px;
+	padding-bottom: 8px;
+	padding-left: 13px;
+	padding-right: 13px;
+	margin: none;
+	background: none;
+	border: none;
+	background-color: lightcyan;
+}
+.search_container button:hover {
+	background-color: orange;
+	outline: none;
+}
+.search_container button:active {
+	outline: none;
+}
+
+/*
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+padding: 10px;
+padding-right: 15px;
+padding-left: 15px	;
+font-size: 18px;
+font-family: "lucida console", "arial", monospace;
+text-align: center;
+text-decoration: none;
+outline: none;
+margin:  0;
+}
+.dropdown .dropbtn:hover {
+background-color: azure;
+color: darkorange;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+top: 126px;
+min-width: 127px;
+background-color: #f9f9f9;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+*/
+#hometop {
+	float:  left;
+	background-color: springgreen;
+}
+#hometop:hover {
+	background-color: limegreen;
+	opacity: 80%;
+}
+#productstop {
+	float:  left;
+}
+#contactstop {
+	float:  left;
+}
+#latesttop {
+	float:  left;
+}
+#add_product {
+	float:  right;	
+	background-color: palevioletred;
+}
+#add_product:hover {
+	background-color: orange;
+	color: darkslateblue;
+}
+#terminate {
+	float:  right;
+}
+/*
+.content {
+	color: azure;
+	font-size: 20px;
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+*/
+#leftlist {
+	height = 100px;
+	width: 50%;
+	float: left;
+}
+.leftlistcom {
+	border-color: lightslategray;
+	border-width: 2px;
+	border-style: solid;
+}
+#rightlist {
+	width: 30%;
+	height: 110%;
+	float: right;
+	border-color: lightslategray;
+	border-width: 2px;
+	border-style: solid;
+	margin-right: 20px;
+}
+.rightlistcom {
+}
+footer {
+	height: 33px;
+	width: 100%;
+	background-color: skyblue;
+	margin-top: 200px;
+}
+#copyright {
+	color: lightslategray;
+	font-size: 13px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-color: lightslategray;
+	border-width: 2px;
+	border-style: solid;
+}
+
+@media screen and (max-width: 600px) {
+}
+
+#search_box {
+	padding-right: 70px;
+	padding-bottom: 11px;
+	padding-top: 11px;
+	font-size: 18px;
+	margin-top: 0px;
+	position: relative;
+	display: inline-block;
+}
+
+#search_button {
+	padding:9px;
+	padding-left: 13px;
+	padding-right: 13px;
+	font-size: 19px;
+	margin-left: -6px;
+	background-color: steelblue;
+}
+
+#search_button:hover {
+	background-color: darkslateblue;
+	color:orange;
+}
+
+#drop_menu {
+	padding: 2px;
+	text-align: left;
+}
+
+#drop_menu a:hover {
+	background-color: darkslateblue;
+	color: orange;
+}
+
+#nav_bar_on_top {
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 0px;
+	border-color: lightslategray;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#nav_bar_on_top #home_button {
+	border: 0px;
+	margin: 0px;
+	background-color: springgreen;
+	padding: 10px;
+}
+
+#nav_bar_on_top #home_button:hover {
+	background-color: #04AA6D;
+	opacity: 80%;
+}
+
+#nav_bar_on_top .nav-link {
+	margin: 0px;
+	margin-bottom: 0px;
+	padding:10px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
+
+#nav_bar_on_top .nav-link:hover {
+	background-color: darkturquoise;
+	color:orange;
+}
+
+#nav_bar_on_top .nav-link:hover {
+	background-color: darkslateblue;
+	color:orange;
+}
+
+#nav_bar_on_top #manage {
+	background-color: #04AA6D;
+	color: white;
+	margin-left: 2px;
+}
+
+#nav_bar_on_top #manage:hover {
+	background-color: darkslateblue;
+	color: orange;
+}
+
+#nav_bar_on_top #terminate {
+	background-color: darkorange;
+	color: darkslateblue;
+	margin-left: 2px;
+}
+
+#nav_bar_on_top #terminate:hover {
+	background-color: darkslateblue;
+	color: orange;
+}
+
+#space_maker {
+	margin-left: 243px;
+}
+
+.navbar-nav li:hover>.dropdown-menu {
+	display: block;
+}
+
+.navbar-nav li:focus>.dropdown-menu {
+	display: none;
+}
